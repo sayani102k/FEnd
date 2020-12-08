@@ -1,0 +1,220 @@
+
+body{
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+}
+h1,h2,h3{
+  font-family: 'Montserrat',sans-serif;
+  font-weight: bold;
+}
+
+.head1{
+  font-family: 'Montserrat-black900', sans-serif;
+  font-weight: 900;
+  font-size: 4rem;
+  line-height: 1.5;
+  color: white;
+
+}
+.collapse-navbar-collapse{
+  margin-left: 500px;
+}
+.container-fluid{
+  padding: 7% 15%;
+}
+/*navigation bar*/
+
+.navbar{
+  padding: 0 0 20px
+}
+/*
+.row{
+  padding-top: 20px;
+}
+*/             /*adding padding in b/w navigation bar and heading*/
+
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  font-size:  1.2rem;
+}
+
+.navbar-brand{
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+/*title-section*/
+#title{                                   /*section editing*/
+    background-color: #ff4c68;
+    text-align: left;
+}
+#title .container-fluid{                                   /*section editing*/
+   padding: 3% 7% 15%;
+}
+/*title-image*/
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+
+/*PART TWO*/
+
+/*my code for the challenge-BOOTSTRAP Challenge 1*/
+/*
+.part-2{
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.paragraph-part2{
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  color: #8f8f8f;
+  width: 75%;
+}
+
+.row-part2{
+  padding: 50px 250px 40px 350px;;
+}
+.part2-1{
+  padding: 30px 5px;
+  width: 50%;
+}
+.icon-1{
+  padding-left: 45px;
+  padding-bottom: 15px;
+  color: #ef8172;
+}
+.icon-1:hover{
+  color: #ff4c68;
+}
+*/
+
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+.part2-1{
+
+}
+.part-2{
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.paragraph-part2{
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  color: #8f8f8f;
+}
+.icon-1{
+  padding-bottom: 15px;
+  color: #ef8172;
+}
+.icon-1:hover{
+  color: #ff4c68;
+}
+
+/*testimonial section*/
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+
+
+}
+.carousel-item{
+   /*padding: 7% 15%;*/
+}
+
+.testimonial-text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/*press section*/
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin-left: 20px 20px 50px;
+}
+
+/*pricing-section*/
+#pricing{
+  padding: 100px;
+}
+.pricing-column{
+  padding: 2% 3%;
+}
+.pricing-heading{
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+/*media-query use*/
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/*last portion*/
+
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 100px;
+  }
+.last-heading{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+.download-btn2{
+  margin: 5% 3% 5% 0;
+}
+
+#footer{
+  /*padding: 7% 15%;*/
+}
+.footer-icons{
+  margin: 5px 5px;
+}
+.copyright-text{
+  font-size: 10px;
+  font-family: 'Montserrat', sans-serif;
+  color: grey;
+  padding-top: 2px;
+}
